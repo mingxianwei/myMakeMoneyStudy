@@ -1,9 +1,8 @@
-
-plantform:ios,'8.0'
+platform:ios, ’8.0’
 
 target ‘myMakeMoneyStudy’ do
-	pod 'AsyncDisplayKit', '~> 1.9.80', ### faceBook提供的第三方库
-	pod 'AFNetworking', '~> 3.1.0',
+	pod 'AsyncDisplayKit', '~> 1.9.80'
+	pod 'AFNetworking', '~> 3.1.0'
 	pod 'Masonry', '~> 1.0.1'
 end
 
