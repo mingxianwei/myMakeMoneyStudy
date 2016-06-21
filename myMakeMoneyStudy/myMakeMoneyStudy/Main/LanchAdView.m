@@ -46,21 +46,6 @@
     [self show];
 }
 
-- (void)show{
-    UIWindow *window = [[UIApplication sharedApplication] keyWindow];
-    [window addSubview:self];
-    [window bringSubviewToFront:self];
-    [self performSelector:@selector(dissmiss) withObject:nil afterDelay:self.duration];
-}
-
-- (void)dissmiss {
-    [UIView animateWithDuration:0.5 animations:^{
-        self.alpha = 0;
-    }completion:^(BOOL finished) {
-        [self removeFromSuperview];
-    }];
-}
-
 #pragma mark - Pravite
 
 - (UIImageView *)myImageView{
@@ -105,6 +90,21 @@
         img = [UIImage imageNamed:@"LaunchImage-800-Portrait-736h"];
     }
     return img;
+}
+
+- (void)show{
+    UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+    [window addSubview:self];
+    [window bringSubviewToFront:self];
+    [self performSelector:@selector(dissmiss) withObject:nil afterDelay:self.duration];
+}
+
+- (void)dissmiss {
+    [UIView animateWithDuration:0.5 animations:^{
+        self.alpha = 0;
+    }completion:^(BOOL finished) {
+        [self removeFromSuperview];
+    }];
 }
 
 - (void)igonoreButtonClicked{

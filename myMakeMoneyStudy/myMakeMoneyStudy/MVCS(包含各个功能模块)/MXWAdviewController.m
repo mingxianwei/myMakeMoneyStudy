@@ -7,7 +7,6 @@
 //
 
 #import "MXWAdviewController.h"
-
 @interface MXWAdviewController ()<UIWebViewDelegate>
 
 @property (nonatomic,strong) UIWebView *myWebView;

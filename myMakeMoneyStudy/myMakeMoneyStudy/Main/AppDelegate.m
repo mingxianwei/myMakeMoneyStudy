@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "LanchAdView.h"
 #import "MXWAdviewController.h"
+#import "SVModalWebViewController.h"
 
 @interface AppDelegate ()
 
@@ -51,11 +52,8 @@
 - (void)jumpToAdViewController:(NSString *)url{
     // 获取到navVC
     UIViewController * viewController = self.window.rootViewController;
-    
-    MXWAdviewController * adVC= [[MXWAdviewController alloc]init];
-    adVC.jumpUrl = url;
-    UINavigationController * navigation = [[UINavigationController alloc] initWithRootViewController:adVC];
-    [viewController presentViewController:navigation animated:YES completion:nil];
+    SVModalWebViewController * vc = [[SVModalWebViewController alloc] initWithAddress:url];
+    [viewController presentViewController:vc animated:YES completion:nil];
 }
 
 @end

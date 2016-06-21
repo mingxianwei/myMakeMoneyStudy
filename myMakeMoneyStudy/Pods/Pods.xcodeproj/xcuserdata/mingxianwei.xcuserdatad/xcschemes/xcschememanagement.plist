@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>NJKWebViewProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PINCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,9 +44,19 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SVWebViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4E49D917B0B27B6122E504495CAEFBEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
@@ -57,17 +72,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5F853BA44E7B97277672142FF2597A0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C6556CE8042CED1FE004A75F765679A2</key>
+		<key>B4A3E08D49931371F7247521A50EAF79</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>DA753B20138EBAEA1A8BA11F50A70E2A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E64BA4ED9CCC64457DE50B48CACD2746</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E836ED6DA8AFEBEECC998BDB856A9174</key>
 		<dict>
 			<key>primary</key>
 			<true/>
