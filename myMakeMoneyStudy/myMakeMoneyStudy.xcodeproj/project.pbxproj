@@ -10,7 +10,8 @@
 		6306E4A8895428B05EA1125A /* libPods-myMakeMoneyStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 852C6B5C081072CE93AC8310 /* libPods-myMakeMoneyStudy.a */; };
 		8500C2C51D14FEAD0046F0D6 /* myMakeMoneyStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8500C2C41D14FEAD0046F0D6 /* myMakeMoneyStudyTests.m */; };
 		8500C2D01D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8500C2CF1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m */; };
-		853ABD6B1D1962B700256397 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853ABD6A1D1962B700256397 /* Images.xcassets */; };
+		853ABD711D1963DA00256397 /* LanchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853ABD701D1963DA00256397 /* LanchAdView.m */; };
+		853ABD761D1997D300256397 /* MXWAdviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853ABD751D1997D300256397 /* MXWAdviewController.m */; };
 		8599D81C1D1919CE00CAE91A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8599D81B1D1919CE00CAE91A /* AppDelegate.m */; };
 		8599D8201D191A3200CAE91A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8599D81F1D191A3200CAE91A /* main.m */; };
 		8599D8221D191A6200CAE91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8599D8211D191A6200CAE91A /* Assets.xcassets */; };
@@ -47,7 +48,12 @@
 		8500C2CF1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMakeMoneyStudyUITests.m; sourceTree = "<group>"; };
 		8500C2D11D14FEAD0046F0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		852C6B5C081072CE93AC8310 /* libPods-myMakeMoneyStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myMakeMoneyStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		853ABD6A1D1962B700256397 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		853ABD6F1D1963DA00256397 /* LanchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanchAdView.h; sourceTree = "<group>"; };
+		853ABD701D1963DA00256397 /* LanchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanchAdView.m; sourceTree = "<group>"; };
+		853ABD721D1967E800256397 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		853ABD731D196DD100256397 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		853ABD741D1997D300256397 /* MXWAdviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXWAdviewController.h; path = "myMakeMoneyStudy/MVCS(包含各个功能模块)/MXWAdviewController.h"; sourceTree = SOURCE_ROOT; };
+		853ABD751D1997D300256397 /* MXWAdviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXWAdviewController.m; path = "myMakeMoneyStudy/MVCS(包含各个功能模块)/MXWAdviewController.m"; sourceTree = SOURCE_ROOT; };
 		8599D8141D19194700CAE91A /* ToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsHeader.h; sourceTree = "<group>"; };
 		8599D8151D19195800CAE91A /* NetWorkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkHeader.h; sourceTree = "<group>"; };
 		8599D8161D19196300CAE91A /* DataHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataHeader.h; sourceTree = "<group>"; };
@@ -62,7 +68,6 @@
 		8599D82A1D191C2700CAE91A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8599D82B1D191C2700CAE91A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85E8FC861D18ED6D00640674 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
-		85E8FC871D18ED7E00640674 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		85E8FC881D18ED8A00640674 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,13 +130,12 @@
 		8500C2A91D14FEAD0046F0D6 /* myMakeMoneyStudy */ = {
 			isa = PBXGroup;
 			children = (
-				85E8FC7A1D18EAF000640674 /* Main */,
 				85E8FC751D18E86800640674 /* Config */,
+				85E8FC7A1D18EAF000640674 /* Main */,
 				85E8FC761D18E86800640674 /* Interfaces */,
 				85E8FC771D18E86800640674 /* Operation */,
 				85E8FC781D18E86800640674 /* Resources */,
 				85E8FC791D18E86800640674 /* Vendors */,
-				853ABD6A1D1962B700256397 /* Images.xcassets */,
 			);
 			path = myMakeMoneyStudy;
 			sourceTree = "<group>";
@@ -141,6 +145,7 @@
 			children = (
 				8599D8281D191AD600CAE91A /* Info.plist */,
 				8599D8251D191A9100CAE91A /* LaunchScreen.storyboard */,
+				853ABD721D1967E800256397 /* PrefixHeader.pch */,
 				8599D8211D191A6200CAE91A /* Assets.xcassets */,
 				8599D81F1D191A3200CAE91A /* main.m */,
 			);
@@ -170,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				85E8FC861D18ED6D00640674 /* Const.h */,
-				85E8FC871D18ED7E00640674 /* Macro.h */,
+				853ABD731D196DD100256397 /* Macro.h */,
 				85E8FC881D18ED8A00640674 /* Notification.h */,
 			);
 			name = Config;
@@ -228,6 +233,8 @@
 			children = (
 				8599D81A1D1919CE00CAE91A /* AppDelegate.h */,
 				8599D81B1D1919CE00CAE91A /* AppDelegate.m */,
+				853ABD6F1D1963DA00256397 /* LanchAdView.h */,
+				853ABD701D1963DA00256397 /* LanchAdView.m */,
 				8599D8231D191A8800CAE91A /* Main.storyboard */,
 			);
 			path = Main;
@@ -303,6 +310,8 @@
 		85E8FC831D18ED0500640674 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				853ABD741D1997D300256397 /* MXWAdviewController.h */,
+				853ABD751D1997D300256397 /* MXWAdviewController.m */,
 			);
 			name = Main;
 			path = "Main(包含功能模块之外的MVC目录)";
@@ -439,7 +448,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8599D8221D191A6200CAE91A /* Assets.xcassets in Resources */,
-				853ABD6B1D1962B700256397 /* Images.xcassets in Resources */,
 				8599D8271D191A9100CAE91A /* LaunchScreen.storyboard in Resources */,
 				8599D8241D191A8800CAE91A /* Main.storyboard in Resources */,
 			);
@@ -516,6 +524,8 @@
 			files = (
 				8599D82C1D191C2700CAE91A /* ViewController.m in Sources */,
 				8599D8201D191A3200CAE91A /* main.m in Sources */,
+				853ABD711D1963DA00256397 /* LanchAdView.m in Sources */,
+				853ABD761D1997D300256397 /* MXWAdviewController.m in Sources */,
 				8599D81C1D1919CE00CAE91A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,6 +665,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mingxianwei/Git/myMakeMoneyStudy/myMakeMoneyStudy/myMakeMoneyStudy/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/myMakeMoneyStudy/Resources（资源型文件目录，如数据图片，plist）/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -673,6 +686,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mingxianwei/Git/myMakeMoneyStudy/myMakeMoneyStudy/myMakeMoneyStudy/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/myMakeMoneyStudy/Resources（资源型文件目录，如数据图片，plist）/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

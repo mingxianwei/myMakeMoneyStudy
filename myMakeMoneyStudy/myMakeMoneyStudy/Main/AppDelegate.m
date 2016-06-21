@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LanchAdView.h"
+#import "MXWAdviewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +16,13 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+
+    [self.window makeKeyAndVisible]; // 这句话不可以掉 不然一直显示不正确
+    [[[LanchAdView alloc] init] showDuration:3 completionBlock:^(NSString *urlString) {
+        [self jumpToAdViewController:urlString];
+    }];
     return YES;
 }
 
@@ -40,6 +46,16 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)jumpToAdViewController:(NSString *)url{
+    // 获取到navVC
+    UIViewController * viewController = self.window.rootViewController;
+    
+    MXWAdviewController * adVC= [[MXWAdviewController alloc]init];
+    adVC.jumpUrl = url;
+    UINavigationController * navigation = [[UINavigationController alloc] initWithRootViewController:adVC];
+    [viewController presentViewController:navigation animated:YES completion:nil];
 }
 
 @end
