@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8500C2B21D14FEAD0046F0D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8500C2B11D14FEAD0046F0D6 /* ViewController.m */; };
 		8500C2C51D14FEAD0046F0D6 /* myMakeMoneyStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8500C2C41D14FEAD0046F0D6 /* myMakeMoneyStudyTests.m */; };
 		8500C2D01D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8500C2CF1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m */; };
-		8599D8191D1919A400CAE91A /* 微信@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8599D8181D1919A400CAE91A /* 微信@2x.png */; };
 		8599D81C1D1919CE00CAE91A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8599D81B1D1919CE00CAE91A /* AppDelegate.m */; };
 		8599D8201D191A3200CAE91A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8599D81F1D191A3200CAE91A /* main.m */; };
 		8599D8221D191A6200CAE91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8599D8211D191A6200CAE91A /* Assets.xcassets */; };
 		8599D8241D191A8800CAE91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8599D8231D191A8800CAE91A /* Main.storyboard */; };
 		8599D8271D191A9100CAE91A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8599D8251D191A9100CAE91A /* LaunchScreen.storyboard */; };
 		8599D8291D191AD600CAE91A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8599D8281D191AD600CAE91A /* Info.plist */; };
+		8599D82C1D191C2700CAE91A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8599D82B1D191C2700CAE91A /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,24 +37,16 @@
 
 /* Begin PBXFileReference section */
 		8500C2A71D14FEAD0046F0D6 /* myMakeMoneyStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMakeMoneyStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8500C2B01D14FEAD0046F0D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		8500C2B11D14FEAD0046F0D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		8500C2C01D14FEAD0046F0D6 /* myMakeMoneyStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMakeMoneyStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8500C2C41D14FEAD0046F0D6 /* myMakeMoneyStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMakeMoneyStudyTests.m; sourceTree = "<group>"; };
 		8500C2C61D14FEAD0046F0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8500C2CB1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMakeMoneyStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8500C2CF1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMakeMoneyStudyUITests.m; sourceTree = "<group>"; };
 		8500C2D11D14FEAD0046F0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8599D80F1D1918EC00CAE91A /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
-		8599D8101D1918FD00CAE91A /* MainHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHeader.h; sourceTree = "<group>"; };
-		8599D8111D19191100CAE91A /* HomeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeHeader.h; sourceTree = "<group>"; };
-		8599D8121D19192000CAE91A /* MyclicleHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyclicleHeader.h; sourceTree = "<group>"; };
-		8599D8131D19192D00CAE91A /* UsersHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsersHeader.h; sourceTree = "<group>"; };
 		8599D8141D19194700CAE91A /* ToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsHeader.h; sourceTree = "<group>"; };
 		8599D8151D19195800CAE91A /* NetWorkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkHeader.h; sourceTree = "<group>"; };
 		8599D8161D19196300CAE91A /* DataHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataHeader.h; sourceTree = "<group>"; };
 		8599D8171D19197800CAE91A /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
-		8599D8181D1919A400CAE91A /* 微信@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信@2x.png"; sourceTree = "<group>"; };
 		8599D81A1D1919CE00CAE91A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8599D81B1D1919CE00CAE91A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8599D81F1D191A3200CAE91A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Resources（资源型文件目录，如数据图片，plist）/main.m"; sourceTree = "<group>"; };
@@ -63,6 +54,8 @@
 		8599D8231D191A8800CAE91A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8599D8261D191A9100CAE91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Resources（资源型文件目录，如数据图片，plist）/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		8599D8281D191AD600CAE91A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Resources（资源型文件目录，如数据图片，plist）/Info.plist"; sourceTree = "<group>"; };
+		8599D82A1D191C2700CAE91A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8599D82B1D191C2700CAE91A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85E8FC861D18ED6D00640674 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		85E8FC871D18ED7E00640674 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		85E8FC881D18ED8A00640674 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
@@ -170,13 +163,13 @@
 		85E8FC761D18E86800640674 /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				8599D82A1D191C2700CAE91A /* ViewController.h */,
+				8599D82B1D191C2700CAE91A /* ViewController.m */,
 				85E8FC811D18ED0500640674 /* Base */,
 				85E8FC831D18ED0500640674 /* Main */,
 				85E8FC821D18ED0500640674 /* Home */,
 				85E8FC841D18ED0500640674 /* Myclicle */,
 				85E8FC851D18ED0500640674 /* Users */,
-				8500C2B01D14FEAD0046F0D6 /* ViewController.h */,
-				8500C2B11D14FEAD0046F0D6 /* ViewController.m */,
 			);
 			name = Interfaces;
 			path = "MVCS(包含各个功能模块)";
@@ -197,7 +190,6 @@
 		85E8FC781D18E86800640674 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8599D8181D1919A400CAE91A /* 微信@2x.png */,
 				8500C2AA1D14FEAD0046F0D6 /* Supporting Files */,
 			);
 			name = Resources;
@@ -279,7 +271,6 @@
 		85E8FC811D18ED0500640674 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				8599D80F1D1918EC00CAE91A /* BaseHeader.h */,
 			);
 			name = Base;
 			path = "Base(重用性较高的BaseMVC，如父控制器，父视图等)";
@@ -288,7 +279,6 @@
 		85E8FC821D18ED0500640674 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8599D8111D19191100CAE91A /* HomeHeader.h */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -296,7 +286,6 @@
 		85E8FC831D18ED0500640674 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				8599D8101D1918FD00CAE91A /* MainHeader.h */,
 			);
 			name = Main;
 			path = "Main(包含功能模块之外的MVC目录)";
@@ -305,7 +294,6 @@
 		85E8FC841D18ED0500640674 /* Myclicle */ = {
 			isa = PBXGroup;
 			children = (
-				8599D8121D19192000CAE91A /* MyclicleHeader.h */,
 			);
 			path = Myclicle;
 			sourceTree = "<group>";
@@ -313,7 +301,6 @@
 		85E8FC851D18ED0500640674 /* Users */ = {
 			isa = PBXGroup;
 			children = (
-				8599D8131D19192D00CAE91A /* UsersHeader.h */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -422,7 +409,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8599D8191D1919A400CAE91A /* 微信@2x.png in Resources */,
 				8599D8221D191A6200CAE91A /* Assets.xcassets in Resources */,
 				8599D8271D191A9100CAE91A /* LaunchScreen.storyboard in Resources */,
 				8599D8291D191AD600CAE91A /* Info.plist in Resources */,
@@ -451,7 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8500C2B21D14FEAD0046F0D6 /* ViewController.m in Sources */,
+				8599D82C1D191C2700CAE91A /* ViewController.m in Sources */,
 				8599D8201D191A3200CAE91A /* main.m in Sources */,
 				8599D81C1D1919CE00CAE91A /* AppDelegate.m in Sources */,
 			);
