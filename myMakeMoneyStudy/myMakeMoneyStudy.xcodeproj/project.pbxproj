@@ -372,7 +372,7 @@
 				TargetAttributes = {
 					8500C2A61D14FEAD0046F0D6 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = N4X7L4FG52;
+						DevelopmentTeam = 64KT797F3Y;
 					};
 					8500C2BF1D14FEAD0046F0D6 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -575,13 +575,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 先伟 明 (U2XR4LA4DD)";
 				INFOPLIST_FILE = "$(SRCROOT)/myMakeMoneyStudy/Resources（资源型文件目录，如数据图片，plist）/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.mingxianwei.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6f0c902d-a05f-49a4-b4ac-fa82df13f529";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -591,13 +591,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 先伟 明 (U2XR4LA4DD)";
 				INFOPLIST_FILE = "$(SRCROOT)/myMakeMoneyStudy/Resources（资源型文件目录，如数据图片，plist）/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.mingxianwei.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "6f0c902d-a05f-49a4-b4ac-fa82df13f529";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
