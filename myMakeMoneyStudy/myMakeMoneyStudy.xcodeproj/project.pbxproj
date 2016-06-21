@@ -39,11 +39,11 @@
 		8500C2AB1D14FEAD0046F0D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8500C2AD1D14FEAD0046F0D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8500C2AE1D14FEAD0046F0D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8500C2B01D14FEAD0046F0D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8500C2B11D14FEAD0046F0D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8500C2B01D14FEAD0046F0D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		8500C2B11D14FEAD0046F0D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		8500C2B41D14FEAD0046F0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8500C2B91D14FEAD0046F0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8500C2BB1D14FEAD0046F0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8500C2BB1D14FEAD0046F0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		8500C2C01D14FEAD0046F0D6 /* myMakeMoneyStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMakeMoneyStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8500C2C41D14FEAD0046F0D6 /* myMakeMoneyStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMakeMoneyStudyTests.m; sourceTree = "<group>"; };
 		8500C2C61D14FEAD0046F0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,12 +103,11 @@
 			children = (
 				8500C2AD1D14FEAD0046F0D6 /* AppDelegate.h */,
 				8500C2AE1D14FEAD0046F0D6 /* AppDelegate.m */,
-				8500C2B01D14FEAD0046F0D6 /* ViewController.h */,
-				8500C2B11D14FEAD0046F0D6 /* ViewController.m */,
-				8500C2B31D14FEAD0046F0D6 /* Main.storyboard */,
-				8500C2B81D14FEAD0046F0D6 /* LaunchScreen.storyboard */,
-				8500C2BB1D14FEAD0046F0D6 /* Info.plist */,
-				8500C2AA1D14FEAD0046F0D6 /* Supporting Files */,
+				85E8FC751D18E86800640674 /* config */,
+				85E8FC761D18E86800640674 /* MVCS */,
+				85E8FC771D18E86800640674 /* Operation */,
+				85E8FC781D18E86800640674 /* Resources */,
+				85E8FC791D18E86800640674 /* Vendors */,
 			);
 			path = myMakeMoneyStudy;
 			sourceTree = "<group>";
@@ -120,6 +119,7 @@
 				8500C2AB1D14FEAD0046F0D6 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8500C2C31D14FEAD0046F0D6 /* myMakeMoneyStudyTests */ = {
@@ -138,6 +138,52 @@
 				8500C2D11D14FEAD0046F0D6 /* Info.plist */,
 			);
 			path = myMakeMoneyStudyUITests;
+			sourceTree = "<group>";
+		};
+		85E8FC751D18E86800640674 /* config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = config;
+			path = "config（宏定义和const等可修改的配置文件）";
+			sourceTree = "<group>";
+		};
+		85E8FC761D18E86800640674 /* MVCS */ = {
+			isa = PBXGroup;
+			children = (
+				8500C2B01D14FEAD0046F0D6 /* ViewController.h */,
+				8500C2B11D14FEAD0046F0D6 /* ViewController.m */,
+			);
+			name = MVCS;
+			path = "MVCS(包含各个功能模块)";
+			sourceTree = "<group>";
+		};
+		85E8FC771D18E86800640674 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Operation;
+			path = "Operation（主要的操作类，如网络请求操作，数据库操作，操作工具等）";
+			sourceTree = "<group>";
+		};
+		85E8FC781D18E86800640674 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8500C2B31D14FEAD0046F0D6 /* Main.storyboard */,
+				8500C2B81D14FEAD0046F0D6 /* LaunchScreen.storyboard */,
+				8500C2BB1D14FEAD0046F0D6 /* Info.plist */,
+				8500C2AA1D14FEAD0046F0D6 /* Supporting Files */,
+			);
+			name = Resources;
+			path = "Resources（资源型文件目录，如数据图片，plist）";
+			sourceTree = "<group>";
+		};
+		85E8FC791D18E86800640674 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			path = "Vendors(第三方组件)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +361,7 @@
 				8500C2B41D14FEAD0046F0D6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8500C2B81D14FEAD0046F0D6 /* LaunchScreen.storyboard */ = {
@@ -323,6 +370,7 @@
 				8500C2B91D14FEAD0046F0D6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
