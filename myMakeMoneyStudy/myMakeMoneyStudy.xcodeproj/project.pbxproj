@@ -37,8 +37,8 @@
 /* Begin PBXFileReference section */
 		8500C2A71D14FEAD0046F0D6 /* myMakeMoneyStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMakeMoneyStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8500C2AB1D14FEAD0046F0D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8500C2AD1D14FEAD0046F0D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8500C2AE1D14FEAD0046F0D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8500C2AD1D14FEAD0046F0D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		8500C2AE1D14FEAD0046F0D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		8500C2B01D14FEAD0046F0D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
 		8500C2B11D14FEAD0046F0D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		8500C2B41D14FEAD0046F0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,9 @@
 		8500C2CF1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMakeMoneyStudyUITests.m; sourceTree = "<group>"; };
 		8500C2D11D14FEAD0046F0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85260EB41D181E30001B80F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85E8FC861D18ED6D00640674 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		85E8FC871D18ED7E00640674 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		85E8FC881D18ED8A00640674 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,9 @@
 		8500C2A91D14FEAD0046F0D6 /* myMakeMoneyStudy */ = {
 			isa = PBXGroup;
 			children = (
-				8500C2AD1D14FEAD0046F0D6 /* AppDelegate.h */,
-				8500C2AE1D14FEAD0046F0D6 /* AppDelegate.m */,
-				85E8FC751D18E86800640674 /* config */,
-				85E8FC761D18E86800640674 /* MVCS */,
+				85E8FC7A1D18EAF000640674 /* Main */,
+				85E8FC751D18E86800640674 /* Config */,
+				85E8FC761D18E86800640674 /* Interfaces */,
 				85E8FC771D18E86800640674 /* Operation */,
 				85E8FC781D18E86800640674 /* Resources */,
 				85E8FC791D18E86800640674 /* Vendors */,
@@ -140,27 +142,39 @@
 			path = myMakeMoneyStudyUITests;
 			sourceTree = "<group>";
 		};
-		85E8FC751D18E86800640674 /* config */ = {
+		85E8FC751D18E86800640674 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				85E8FC861D18ED6D00640674 /* Const.h */,
+				85E8FC871D18ED7E00640674 /* Macro.h */,
+				85E8FC881D18ED8A00640674 /* Notification.h */,
 			);
-			name = config;
+			name = Config;
 			path = "config（宏定义和const等可修改的配置文件）";
 			sourceTree = "<group>";
 		};
-		85E8FC761D18E86800640674 /* MVCS */ = {
+		85E8FC761D18E86800640674 /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				85E8FC811D18ED0500640674 /* Base */,
+				85E8FC831D18ED0500640674 /* Main */,
+				85E8FC821D18ED0500640674 /* Home */,
+				85E8FC841D18ED0500640674 /* Myclicle */,
+				85E8FC851D18ED0500640674 /* Users */,
 				8500C2B01D14FEAD0046F0D6 /* ViewController.h */,
 				8500C2B11D14FEAD0046F0D6 /* ViewController.m */,
 			);
-			name = MVCS;
+			name = Interfaces;
 			path = "MVCS(包含各个功能模块)";
 			sourceTree = "<group>";
 		};
 		85E8FC771D18E86800640674 /* Operation */ = {
 			isa = PBXGroup;
 			children = (
+				85E8FC7E1D18EBAC00640674 /* Tools */,
+				85E8FC7D1D18EBAC00640674 /* Net */,
+				85E8FC7C1D18EBAC00640674 /* Data */,
+				85E8FC7B1D18EBAC00640674 /* Category */,
 			);
 			name = Operation;
 			path = "Operation（主要的操作类，如网络请求操作，数据库操作，操作工具等）";
@@ -169,7 +183,6 @@
 		85E8FC781D18E86800640674 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8500C2B31D14FEAD0046F0D6 /* Main.storyboard */,
 				8500C2B81D14FEAD0046F0D6 /* LaunchScreen.storyboard */,
 				8500C2BB1D14FEAD0046F0D6 /* Info.plist */,
 				8500C2AA1D14FEAD0046F0D6 /* Supporting Files */,
@@ -181,9 +194,106 @@
 		85E8FC791D18E86800640674 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				85E8FC7F1D18EC0B00640674 /* Components */,
+				85E8FC801D18EC0B00640674 /* Libs */,
 			);
 			name = Vendors;
 			path = "Vendors(第三方组件)";
+			sourceTree = "<group>";
+		};
+		85E8FC7A1D18EAF000640674 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8500C2AD1D14FEAD0046F0D6 /* AppDelegate.h */,
+				8500C2AE1D14FEAD0046F0D6 /* AppDelegate.m */,
+				8500C2B31D14FEAD0046F0D6 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		85E8FC7B1D18EBAC00640674 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			path = "Category(类目)";
+			sourceTree = "<group>";
+		};
+		85E8FC7C1D18EBAC00640674 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			path = "Data(数据层代码)";
+			sourceTree = "<group>";
+		};
+		85E8FC7D1D18EBAC00640674 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Net;
+			path = "Net(网络层的代码)";
+			sourceTree = "<group>";
+		};
+		85E8FC7E1D18EBAC00640674 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			path = "Tools(工具类)";
+			sourceTree = "<group>";
+		};
+		85E8FC7F1D18EC0B00640674 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			path = "Components（第三方小组件，如第三方自定义控件等）";
+			sourceTree = "<group>";
+		};
+		85E8FC801D18EC0B00640674 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			path = "Libs（第三方库）";
+			sourceTree = "<group>";
+		};
+		85E8FC811D18ED0500640674 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
+			path = "Base(重用性较高的BaseMVC，如父控制器，父视图等)";
+			sourceTree = "<group>";
+		};
+		85E8FC821D18ED0500640674 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		85E8FC831D18ED0500640674 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			path = "Main(包含功能模块之外的MVC目录)";
+			sourceTree = "<group>";
+		};
+		85E8FC841D18ED0500640674 /* Myclicle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Myclicle;
+			sourceTree = "<group>";
+		};
+		85E8FC851D18ED0500640674 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
