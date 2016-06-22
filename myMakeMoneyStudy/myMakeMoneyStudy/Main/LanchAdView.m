@@ -84,9 +84,9 @@
         img = [UIImage imageNamed:@"LaunchImage-700"];
     } else if(IS_IPHONE5_SERIAL){
         img = [UIImage imageNamed:@"LaunchImage-700-568h"];
-    } else if (IS_IPHONE6){
+    } else if (IS_IPHONE6_SERIAL){
         img = [UIImage imageNamed:@"LaunchImage-800-667h"];
-    } else if (IS_IPHONE6PLUS){
+    } else if (IS_IPHONE6PLUS_SERIAL){
         img = [UIImage imageNamed:@"LaunchImage-800-Portrait-736h"];
     }
     return img;
@@ -119,7 +119,7 @@
     if (CGRectContainsPoint(self.myImageView.frame, current)) {
         [self dissmiss];
         if (self.block) {
-            self.block(@"http://www.baidu.com");
+            self.block(@"http://www.sina.com");
         }
     }
     

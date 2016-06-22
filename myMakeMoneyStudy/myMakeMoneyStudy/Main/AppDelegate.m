@@ -51,9 +51,17 @@
 
 - (void)jumpToAdViewController:(NSString *)url{
     // 获取到navVC
+//    UIViewController * viewController = self.window.rootViewController;
+//    SVModalWebViewController * vc = [[SVModalWebViewController alloc] initWithAddress:url];
+//    [viewController presentViewController:vc animated:YES completion:nil];
+    
+    MXWAdviewController * viewVC = [[MXWAdviewController alloc] initWithUrlString:url];
     UIViewController * viewController = self.window.rootViewController;
-    SVModalWebViewController * vc = [[SVModalWebViewController alloc] initWithAddress:url];
-    [viewController presentViewController:vc animated:YES completion:nil];
+    UINavigationController * navigation = [[UINavigationController alloc] initWithRootViewController:viewVC];
+    [viewController presentViewController:navigation animated:YES completion:nil];
+    
+    
+    
 }
 
 @end

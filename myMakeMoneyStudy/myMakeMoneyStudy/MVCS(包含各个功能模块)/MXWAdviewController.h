@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MXWAdviewController : UIViewController
-@property (nonatomic,copy)NSString * jumpUrl;
+
+-(instancetype)initWithUrlString:(NSString *)urlString;
+
 @end

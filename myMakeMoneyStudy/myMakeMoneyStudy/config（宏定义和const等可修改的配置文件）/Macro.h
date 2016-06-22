@@ -57,6 +57,8 @@
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 
+#define WEAKSELF typeof(self) __weak weakSelf = self;
+#define STRONGSELF typeof(weakSelf)  __strong strongSelf = weakSelf;
 
 /** 快速查询一段代码的执行时间
  TICK
