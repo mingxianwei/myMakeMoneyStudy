@@ -667,7 +667,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/mingxianwei/Git/myMakeMoneyStudy/myMakeMoneyStudy/myMakeMoneyStudy/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/myMakeMoneyStudy/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/myMakeMoneyStudy/Resources（资源型文件目录，如数据图片，plist）/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -688,7 +688,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/mingxianwei/Git/myMakeMoneyStudy/myMakeMoneyStudy/myMakeMoneyStudy/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/myMakeMoneyStudy/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/myMakeMoneyStudy/Resources（资源型文件目录，如数据图片，plist）/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
