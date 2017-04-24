@@ -24,8 +24,7 @@
 
 #pragma mark - LifeClice
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
         self.frame  = CGRectMake(0, 0,SCREEN_WIDTH ,SCREEN_HEIGHT);
@@ -112,7 +111,7 @@
 }
 
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     UITouch * touch = [touches anyObject];
     //取得当前位置
     CGPoint current=[touch locationInView:self];

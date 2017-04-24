@@ -18,11 +18,11 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
 
     [self.window makeKeyAndVisible]; // 这句话不可以掉 不然一直显示不正确
+    __weak typeof (self) WeakeSelf = self;
     [[[LanchAdView alloc] init] showDuration:3 completionBlock:^(NSString *urlString) {
-        [self jumpToAdViewController:urlString];
+        [WeakeSelf jumpToAdViewController:urlString];
     }];
     return YES;
 }

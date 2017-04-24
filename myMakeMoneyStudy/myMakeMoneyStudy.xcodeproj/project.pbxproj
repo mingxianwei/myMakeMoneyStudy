@@ -10,6 +10,7 @@
 		6306E4A8895428B05EA1125A /* libPods-myMakeMoneyStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 852C6B5C081072CE93AC8310 /* libPods-myMakeMoneyStudy.a */; };
 		8500C2C51D14FEAD0046F0D6 /* myMakeMoneyStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8500C2C41D14FEAD0046F0D6 /* myMakeMoneyStudyTests.m */; };
 		8500C2D01D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8500C2CF1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m */; };
+		8507F1DF1EADE0D4007FD95C /* MMSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8507F1DE1EADE0D4007FD95C /* MMSingleton.m */; };
 		853ABD711D1963DA00256397 /* LanchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853ABD701D1963DA00256397 /* LanchAdView.m */; };
 		853ABD761D1997D300256397 /* MXWAdviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853ABD751D1997D300256397 /* MXWAdviewController.m */; };
 		8599D81C1D1919CE00CAE91A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8599D81B1D1919CE00CAE91A /* AppDelegate.m */; };
@@ -47,6 +48,8 @@
 		8500C2CB1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMakeMoneyStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8500C2CF1D14FEAD0046F0D6 /* myMakeMoneyStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMakeMoneyStudyUITests.m; sourceTree = "<group>"; };
 		8500C2D11D14FEAD0046F0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8507F1DD1EADE0D4007FD95C /* MMSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSingleton.h; sourceTree = "<group>"; };
+		8507F1DE1EADE0D4007FD95C /* MMSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSingleton.m; sourceTree = "<group>"; };
 		852C6B5C081072CE93AC8310 /* libPods-myMakeMoneyStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myMakeMoneyStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		853ABD6F1D1963DA00256397 /* LanchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanchAdView.h; sourceTree = "<group>"; };
 		853ABD701D1963DA00256397 /* LanchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanchAdView.m; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				85E8FC861D18ED6D00640674 /* Const.h */,
 				853ABD731D196DD100256397 /* Macro.h */,
 				85E8FC881D18ED8A00640674 /* Notification.h */,
+				8507F1DD1EADE0D4007FD95C /* MMSingleton.h */,
+				8507F1DE1EADE0D4007FD95C /* MMSingleton.m */,
 			);
 			name = Config;
 			path = "config（宏定义和const等可修改的配置文件）";
@@ -523,6 +528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8599D82C1D191C2700CAE91A /* ViewController.m in Sources */,
+				8507F1DF1EADE0D4007FD95C /* MMSingleton.m in Sources */,
 				8599D8201D191A3200CAE91A /* main.m in Sources */,
 				853ABD711D1963DA00256397 /* LanchAdView.m in Sources */,
 				853ABD761D1997D300256397 /* MXWAdviewController.m in Sources */,
