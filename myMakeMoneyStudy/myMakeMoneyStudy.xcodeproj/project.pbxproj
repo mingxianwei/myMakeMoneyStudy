@@ -19,6 +19,7 @@
 		8599D8271D191A9100CAE91A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8599D8251D191A9100CAE91A /* LaunchScreen.storyboard */; };
 		8599D82C1D191C2700CAE91A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8599D82B1D191C2700CAE91A /* ViewController.m */; };
 		85F568931EF0E018004C6E4E /* MRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F568921EF0E018004C6E4E /* MRTableViewController.m */; };
+		85F568961EF110D3004C6E4E /* MRImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F568951EF110D3004C6E4E /* MRImageViewController.m */; };
 		DCE62AC6949021938CA1E48E /* libPods-myMakeMoneyStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AE3068A324B1245E7AD687 /* libPods-myMakeMoneyStudy.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,8 @@
 		85E8FC881D18ED8A00640674 /* Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
 		85F568911EF0E018004C6E4E /* MRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTableViewController.h; sourceTree = "<group>"; };
 		85F568921EF0E018004C6E4E /* MRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTableViewController.m; sourceTree = "<group>"; };
+		85F568941EF110D3004C6E4E /* MRImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRImageViewController.h; sourceTree = "<group>"; };
+		85F568951EF110D3004C6E4E /* MRImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRImageViewController.m; sourceTree = "<group>"; };
 		D15CCBA546AFFDC456C07332 /* Pods-myMakeMoneyStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myMakeMoneyStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myMakeMoneyStudy/Pods-myMakeMoneyStudy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,6 +209,8 @@
 				8599D82B1D191C2700CAE91A /* ViewController.m */,
 				85F568911EF0E018004C6E4E /* MRTableViewController.h */,
 				85F568921EF0E018004C6E4E /* MRTableViewController.m */,
+				85F568941EF110D3004C6E4E /* MRImageViewController.h */,
+				85F568951EF110D3004C6E4E /* MRImageViewController.m */,
 				85E8FC811D18ED0500640674 /* Base */,
 				85E8FC831D18ED0500640674 /* Main */,
 				85E8FC821D18ED0500640674 /* Home */,
@@ -535,6 +540,7 @@
 				8599D82C1D191C2700CAE91A /* ViewController.m in Sources */,
 				8507F1DF1EADE0D4007FD95C /* MMSingleton.m in Sources */,
 				8599D8201D191A3200CAE91A /* main.m in Sources */,
+				85F568961EF110D3004C6E4E /* MRImageViewController.m in Sources */,
 				853ABD711D1963DA00256397 /* LanchAdView.m in Sources */,
 				853ABD761D1997D300256397 /* MXWAdviewController.m in Sources */,
 				85F568931EF0E018004C6E4E /* MRTableViewController.m in Sources */,

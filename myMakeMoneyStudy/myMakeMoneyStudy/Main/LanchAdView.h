@@ -10,6 +10,7 @@
 typedef void(^lanchImageClicked)(NSString * urlString);
 
 @interface LanchAdView : UIView
+
 -(void)showDuration:(NSTimeInterval)duration completionBlock:(lanchImageClicked)click;
 
 @end

@@ -63,8 +63,14 @@
     };
     
     self.myWebView.delegate = self.progress;
+    
+    UIBarButtonItem * iteam = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self   action:@selector(back)];
+    self.navigationItem.leftBarButtonItem = iteam;
 }
 
+- (void)back{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 #pragma mark - Publick
 
