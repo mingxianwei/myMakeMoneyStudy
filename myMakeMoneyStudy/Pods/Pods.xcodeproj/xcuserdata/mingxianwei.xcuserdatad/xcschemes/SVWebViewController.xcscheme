@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '086749DFC6925B95B1D592D6'
+               BlueprintIdentifier = '4C8750A68D0E826E4ABF8BF79D80F7FC'
                BlueprintName = 'SVWebViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libSVWebViewController.a'>

@@ -14,46 +14,28 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - AsyncDisplayKit (1.9.80):
-    - AsyncDisplayKit/PINRemoteImage (= 1.9.80)
-  - AsyncDisplayKit/ASDealloc2MainObject (1.9.80)
-  - AsyncDisplayKit/Core (1.9.80):
-    - AsyncDisplayKit/ASDealloc2MainObject
-  - AsyncDisplayKit/PINRemoteImage (1.9.80):
-    - AsyncDisplayKit/Core
-    - PINRemoteImage/iOS (>= 3.0.0-beta.2)
-  - Masonry (1.0.1)
   - NJKWebViewProgress (0.2.3):
     - NJKWebViewProgress/Core (= 0.2.3)
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
-  - PINCache (2.2.2)
-  - PINRemoteImage/Core (3.0.0-beta.2):
-    - PINCache (>= 2.1)
-  - PINRemoteImage/iOS (3.0.0-beta.2):
-    - PINRemoteImage/Core
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - SVWebViewController (1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
-  - AsyncDisplayKit (~> 1.9.80)
-  - Masonry (~> 1.0.1)
   - NJKWebViewProgress (~> 0.2.3)
   - SDWebImage (~> 3.8.1)
   - SVWebViewController (~> 1.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  AsyncDisplayKit: ab57b10cd058797015c77be10407f3dc13027c85
-  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
-  PINCache: 078426d356ab95ef875e9e62e5c35a2ea3333c28
-  PINRemoteImage: 197554c5ba57a6ae90f5db441651180039fc9062
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
   SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 072ae5a41c38fc28888dc7cd8fee890f5bb71610
+
+COCOAPODS: 1.2.1.beta.1

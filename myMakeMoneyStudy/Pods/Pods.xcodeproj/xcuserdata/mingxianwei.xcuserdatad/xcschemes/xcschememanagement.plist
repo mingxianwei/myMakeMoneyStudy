@@ -9,27 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>AsyncDisplayKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Masonry.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>NJKWebViewProgress.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>PINCache.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>PINRemoteImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,47 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4E49D917B0B27B6122E504495CAEFBEE</key>
+		<key>4C8750A68D0E826E4ABF8BF79D80F7FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
+		<key>6BE89E30F10E92245D7F7B40E8317518</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>67E96E8E386DB2BA44C3C6B11A4C13DF</key>
+		<key>70A27E41E6E2DA2B4134A9E8B90D6CD6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>928353533005A4198EBDA5B700D37B64</key>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B4A3E08D49931371F7247521A50EAF79</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DA753B20138EBAEA1A8BA11F50A70E2A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E64BA4ED9CCC64457DE50B48CACD2746</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E836ED6DA8AFEBEECC998BDB856A9174</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EDA5260C6B2CF3183ADDEF8E7902BFEF</key>
+		<key>CCB7CB485E21C0801790635C83376BA2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
